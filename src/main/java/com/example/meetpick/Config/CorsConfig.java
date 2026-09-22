@@ -20,6 +20,8 @@ public class CorsConfig {
         config.setAllowedOriginPatterns(List.of(
                 "https://*.seoyeonlee.site",
                 "https://seoyeonlee.site",
+                "https://*.vercel.app",
+                "https://meetpickfe.vercel.app",
                 "http://localhost:*",
                 "http://localhost:5173/"
         ));
