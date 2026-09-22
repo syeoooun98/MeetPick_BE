@@ -20,7 +20,8 @@ public class CorsConfig {
         config.setAllowedOriginPatterns(List.of(
                 "https://*.seoyeonlee.site",
                 "https://seoyeonlee.site",
-                "http://localhost:*"
+                "http://localhost:*",
+                "http://localhost:5173/"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
